@@ -1,0 +1,41 @@
+.table {
+  width: 100%;
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    tr {
+      width: 100%;
+      th,
+      td {
+        border-bottom: 1px solid #ddd;
+        padding: 12px;
+        text-align: left;
+        color: J#292D32;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 21px;
+
+        button {
+          background-color: #cbece4;
+          color: rgb(45, 84, 63);
+          border: 2px solid #407e6ea6;
+          padding: 4px 12px;
+          border-radius: 4px;
+          cursor: pointer;
+          transform: translateX(60px);
+          & + {
+            background-color: #dba064;
+          }
+        }
+      }
+      th {
+        background-color: #ffffff;
+        color: #b5b7c0;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 21px;
+      }
+    }
+  }
+}
